@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: #2e2b27;
+    display: flex;
+    flex-flow: column;
+    align-content: space-around;
+    justify-content: center;
+    font-family:'Lato', sans-serif;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+
+
+}
+
+a, a:focus, a:active {
+    color: inherit;
+    background: rgb(49, 128, 231);
+    font-size: smaller;
+    padding: 10px;
+}
+
+a:hover {
+    color: inherit;
+    background: rgb(26, 116, 235);
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+#div {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+form#input>p {
+    text-align: center;
+}
+
+br {
+    margin: 20px;
+}
+
+hr {
+    color: rgb(56, 65, 56);
+}

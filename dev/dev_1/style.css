@@ -1,0 +1,29 @@
+html {
+    background-color: gray;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1920px;
+    height: 1080px; */
+    flex-flow: column wrap;
+}
+
+input {
+    margin: 5px;
+    cursor: default;
+}
+
+.images{
+    width: 50px;
+    height: 50px;
+    
+}
+
+#player{
+    height: 20px;
+    width: 115px;
+}
